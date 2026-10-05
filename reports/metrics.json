@@ -1,0 +1,28 @@
+{
+  "threshold": 0.5,
+  "test_size": 1409,
+  "best_params": {
+    "clf__colsample_bytree": 0.7783331011414365,
+    "clf__learning_rate": 0.02499623737270043,
+    "clf__max_depth": 4,
+    "clf__min_child_weight": 8,
+    "clf__n_estimators": 249,
+    "clf__subsample": 0.7428600453765822
+  },
+  "baseline": {
+    "model": "Logistic Regression (baseline)",
+    "recall": 0.7834224598930482,
+    "precision": 0.5060449050086355,
+    "f1": 0.614900314795383,
+    "roc_auc": 0.8417964814384252,
+    "pr_auc": 0.634021122339187
+  },
+  "xgboost": {
+    "model": "XGBoost (tuned)",
+    "recall": 0.7994652406417112,
+    "precision": 0.52,
+    "f1": 0.6301369863013698,
+    "roc_auc": 0.8470497817045132,
+    "pr_auc": 0.6634652079796816
+  }
+}
