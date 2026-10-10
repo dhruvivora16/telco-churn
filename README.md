@@ -2,7 +2,7 @@
 
 End-to-end churn project on the **IBM Telco Customer Churn** dataset: SQL + pandas cleaning → logistic regression baseline → tuned XGBoost → SHAP explanations → Streamlit app that scores a customer's churn risk.
 
-**Live demo:** _<paste your Streamlit Cloud URL here>_
+**Live demo:** https://dhruvivora16-telco-churn-appstreamlit-app-k6ktdf.streamlit.app/#high-risk
 
 ## Results (test set, 20% stratified hold-out, threshold = 0.5)
 
